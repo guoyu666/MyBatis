@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace先随意写一个-->
+<mapper namespace="car">
+    <!--insert语句，ID是这条SQL语句的唯一标识，这个ID就代表了这条SQL语句-->
+    <insert id="insertCar">
+        insert into t_car values(null,#{carNum},#{brand},#{guidePrice},#{produceTime},#{carTye});
+    </insert>
+</mapper>

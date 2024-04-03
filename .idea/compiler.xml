@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="junit-test" />
+        <module name="parse-xml-by-dom4j" />
+        <module name="mybatis-001-introduction" />
+        <module name="mybatis-004-web" />
+        <module name="javassist-test" />
+        <module name="mybatis-002-crud" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

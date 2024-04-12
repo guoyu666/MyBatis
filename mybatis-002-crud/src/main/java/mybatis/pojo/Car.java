@@ -18,9 +18,11 @@ public class Car {
     private String produceTime;
     private String carType;
 
+    // 无参构造函数
     public Car() {
     }
 
+    // 有参构造函数
     public Car(Long id, String carNum, String brand, Double guidePrice, String produceTime, String carType) {
         this.id = id;
         this.carNum = carNum;

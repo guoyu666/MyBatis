@@ -5,8 +5,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import java.io.IOException;
-
 /**
  * 采用正规的方式，写一个完整版的MyBatis程序
  */

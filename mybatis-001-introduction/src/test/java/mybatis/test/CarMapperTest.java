@@ -13,6 +13,7 @@ public class CarMapperTest {
         SqlSession sqlSession = SqlSessionUtil.openSession();
         int count = sqlSession.insert("insertCar");
         System.out.println(count);
+        // 手动提交
         sqlSession.commit();
         sqlSession.close();
     }

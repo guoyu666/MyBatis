@@ -16,7 +16,7 @@
     </update>
 
     <delete id="deleteById">
-        delete from t_car where id = #{SuiBianXie}
+        delete from t_car where id = #{id}
     </delete>
 
     <!--insert语句，ID是这条SQL语句的唯一标识，这个ID就代表了这条SQL语句-->

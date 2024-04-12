@@ -14,5 +14,8 @@
         <module name="mybatis-002-crud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Mybatis" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

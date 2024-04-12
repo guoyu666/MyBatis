@@ -19,27 +19,29 @@ public class CarMapperTest {
         for (Object car : cars) {
             System.out.println(car);
         }
+        // 这里是查询，不是像增删改查一样持久化数据库,所以不需要commit
         sqlSession.close();
     }
     @Test
     public void testSelectAll() {
         SqlSession sqlSession = SqlSessionUtil.openSession();
         // 执行sql语句
-        List<Object> cars = sqlSession.selectList("selectAll");
+        List<Car> cars = sqlSession.selectList("selectAll");
         // 遍历
-        for (Object car : cars) {
+        for ( Car car : cars) {
             System.out.println(car);
         }
+        // 这里是查询，不是像增删改查一样持久化数据库,所以不需要commit
         sqlSession.close();
     }
 
     @Test
     public void testSelectById() {
         SqlSession sqlSession = SqlSessionUtil.openSession();
-        // 执行DQL语句，查询。根据id查询，返回结果一定是一条
+        // 执行DQL语句，查询。根据id查询，返回结果一定是一条,所以用sqlSession.selectOne()
         // mybatis底层执行了select语句之后，一定会返回一个结果集对象：ResultSet
         // JDBC中叫做ResultSet，接下来就是mybatis应该从ResultSet中取出数据，封装java对象
-        // 这里是查询，不是像增删改查一样持久化数据库
+        // 这里是查询，不是像增删改查一样持久化数据库,所以不需要commit
         Object car = sqlSession.selectOne("car2.selectById", 1);
         System.out.println(car);
         sqlSession.close();
@@ -54,6 +56,7 @@ public class CarMapperTest {
 
         // 执行SQL语句
         sqlSession.update("updateById", car);
+        // 提交
         sqlSession.commit();
         sqlSession.close();
     }
@@ -64,6 +67,7 @@ public class CarMapperTest {
         // 执行SQL语句
         int count = sqlSession.delete("deleteById", 5);
         System.out.println(count);
+        // 提交
         sqlSession.commit();
         sqlSession.close();
     }
@@ -99,6 +103,7 @@ public class CarMapperTest {
         // 第二个参数：封装数据的对象
         int count = sqlSession.insert("insertCar", map);
         System.out.println(count);
+        // 提交
         sqlSession.commit();
         sqlSession.close();
 

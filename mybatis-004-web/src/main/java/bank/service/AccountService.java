@@ -18,5 +18,4 @@ public interface AccountService {
      * @param money
      */
     void transfer(String fromActno, String toActno, double money) throws MoneyNotEnoughException, TransferException;
-
 }

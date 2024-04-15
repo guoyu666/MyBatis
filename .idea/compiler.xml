@@ -7,15 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="junit-test" />
-        <module name="parse-xml-by-dom4j" />
-        <module name="mybatis-001-introduction" />
+        <module name="mybatis-006-antic" />
         <module name="mybatis-004-web" />
+        <module name="parse-xml-by-dom4j" />
+        <module name="mybatis-007-param" />
+        <module name="mybatis-008-select" />
+        <module name="mybatis-001-introduction" />
         <module name="javassist-test" />
+        <module name="mybatis-005-crud" />
         <module name="mybatis-002-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Mybatis" target="21" />
+      <module name="mybatis-005-crud2" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

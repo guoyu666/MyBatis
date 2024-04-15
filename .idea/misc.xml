@@ -16,10 +16,14 @@
         <option value="$PROJECT_DIR$/parse-xml-by-dom4j/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-004-web/pom.xml" />
         <option value="$PROJECT_DIR$/javassist-test/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-005-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-006-antic/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-007-param/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-008-select/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

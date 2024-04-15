@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mybatis.mapper.CarMapper">
+    <select id="selectById" resultType="Car">
+        select id,
+            car_num as carNum,
+            brand,
+            guide_price as guidePrice,
+            produce_time as produceTime,
+            car_type as carType
+        from t_car where id = #{id}
+    </select>
+
+    <select id="selectAll" resultType="Car">
+        select id,
+            car_num as carNum,
+            brand,
+            guide_price as guidePrice,
+            produce_time as produceTime,
+            car_type as carType
+        from t_car
+    </select>
+
+    <select id="selectByBrandLike" resultType="Car">
+        select id,
+               car_num as carNum,
+               brand,
+               guide_price as guidePrice,
+               produce_time as produceTime,
+               car_type as carType
+        from t_car
+        where brand like '%${brand}%'
+    </select>
+
+    <!--resultType="java.util.Map"有别名：Map-->
+    <select id="selectByIdReturnMap" resultType="Map">
+        select * from t_car where id = #{id}
+    </select>
+
+    <select id="selectAllReturnListMap" resultType="Map">
+        select * from t_car
+    </select>
+
+    <select id="selectMapReturnMap" resultType="Map">
+        select * from t_car
+    </select>
+
+
+    <!--
+        1.专门定义一个结果映射，在这个 结果映射当中指定数据库表中的字段名和Java类的属性名的对应关系
+        2.type属性，用来指定POJO类的类名
+        3.id属性，指定resultMap的唯一标识，这个ID将来要在select标签中使用
+        -->
+    <resultMap id="carResultMap" type="Car">
+        <!--如果数据库表中有主键，一般都是有主键的，要不然不符合数据库设计的第一范式-->
+        <!--如果有主键，建议这里配置一个id标签，注意:这不是必须的，但是官方解释是这样可以让mybatis提高效率-->
+        <id property="id" column="id"/>
+
+        <!--property后面填写POJO类的属性名-->
+        <!--column后面填写数据库中的字段名-->
+        <result  property="carNum" column="car_num"/>
+        <result  property="brand" column="brand"/>
+        <result  property="guidePrice" column="guide_price"/>
+        <result  property="produceTime" column="produce_time"/>
+        <result  property="carType" column="car_type"/>
+    </resultMap>
+    <!--
+        select标签的resultMap属性，用来指定使用哪个结果映射，resultMap后面的值是resultMap的id
+    -->
+    <select id="selectAllByResultMap" resultMap="carResultMap">
+        select * from t_car
+    </select>
+
+    <select id="SelectAllByMapUnderscoreToCamelCase" resultType="Car">
+        select * from t_car
+    </select>
+
+    <select id="selectTotal" resultType="Long">
+        select count(*) from t_car
+    </select>
+</mapper>

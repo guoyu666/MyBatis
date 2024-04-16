@@ -20,6 +20,8 @@
         <option value="$PROJECT_DIR$/mybatis-006-antic/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-007-param/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-008-select/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-009-dynamic-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-010-advanced-mapping/pom.xml" />
       </list>
     </option>
   </component>

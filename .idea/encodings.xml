@@ -21,6 +21,10 @@
     <file url="file://$PROJECT_DIR$/mybatis-007-param/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-008-select/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-008-select/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parse-xml-by-dom4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/parse-xml-by-dom4j/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

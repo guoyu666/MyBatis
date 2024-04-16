@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a17cdc28-c40f-4c1a-9ac3-40e896907a0e" name="更改" comment="修改代码提交">
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/java/mybatis/mapper/CarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/java/mybatis/pojo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/java/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources/mybatis/mapper/CarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/test/java/mybatis/test/CarMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/LOG_HOME_IS_UNDEFINED/TestWeb.log.2024-04-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java/mybatis/mapper/ClazzMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java/mybatis/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java/mybatis/pojo/Clazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java/mybatis/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/java/mybatis/utils/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/ClazzMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/test/java/mybatis/test/ClazzMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/test/java/mybatis/test/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-008-select/LOG_HOME_IS_UNDEFINED/TestWeb.log.2024-04-15.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis核心配置文件" />
+        <option value="mybatis的核心配置文件" />
+        <option value="Interface" />
+        <option value="mybatis的sql映射文件" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$USER_HOME$/devTools/apache-maven-3.9.6" />
+        <option name="localRepository" value="$USER_HOME$/devTools/local-maven" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="$USER_HOME$/devTools/apache-maven-3.9.6/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ecQ3Kcr5U6t7tzxtf1EsQjl8HS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.CarMapperTest.executor": "Run",
+    "JUnit.CarMapperTest.testDeleteById.executor": "Run",
+    "JUnit.CarMapperTest.testDeleteByIds.executor": "Run",
+    "JUnit.CarMapperTest.testInsert.executor": "Run",
+    "JUnit.CarMapperTest.testInsertBatch.executor": "Run",
+    "JUnit.CarMapperTest.testInsertCarUseGeneratedKeys.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByAscOrDesc.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByMapUnderscoreToCameCase.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByResultMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllReturnListMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByBrandLike.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByCarType.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByChoose.executor": "Run",
+    "JUnit.CarMapperTest.testSelectById.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByIdReturnMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiCondition.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiConditionWithTrim.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiConditionWithWhere.executor": "Run",
+    "JUnit.CarMapperTest.testSelectMapReturnMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectTotal.executor": "Run",
+    "JUnit.CarMapperTest.testUpdate.executor": "Run",
+    "JUnit.CarMapperTest.testUpdateById.executor": "Run",
+    "JUnit.CarMapperTest.testUpdateBySet.executor": "Run",
+    "JUnit.JavassistTest.executor": "Run",
+    "JUnit.JavassistTest.testGenerateAccountDaoImpl.executor": "Run",
+    "JUnit.JavassistTest.testGenerateFirstClass (1).executor": "Run",
+    "JUnit.JavassistTest.testGenerateFirstClass.executor": "Run",
+    "JUnit.JavassistTest.testGenerateImpl.executor": "Run",
+    "JUnit.MathServiceTest.testSum.executor": "Run",
+    "JUnit.StudentMapperTest.testInsertStudentByMap.executor": "Run",
+    "JUnit.StudentMapperTest.testInsertStudentByPOJO.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByBirth.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectById.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByIdAssociation.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByIdStep1.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByName.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByNameAndSex.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByNameAndSex2.executor": "Debug",
+    "JUnit.StudentMapperTest.testSelectBySex.executor": "Run",
+    "Maven.junit-test [clean].executor": "Run",
+    "Maven.mybatis-007-param [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/apple/Documents/ideaProjects/MyBatis/mybatis-010-advanced-mapping/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28275862",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-009-dynamic-sql/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-008-select/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-007-param/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mybatis-006-antic/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mybatis.utils" />
+      <recent name="mybatis.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentMapperTest.testSelectByIdStep1">
+    <configuration name="CarMapperTest.testDeleteByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-009-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarMapperTest.testInsertBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-009-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
+      <option name="METHOD_NAME" value="testInsertBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavassistTest.testGenerateFirstClass" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="javassist-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javassist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javassist" />
+      <option name="MAIN_CLASS_NAME" value="javassist.JavassistTest" />
+      <option name="METHOD_NAME" value="testGenerateFirstClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-add-opens java.base/java.lang=ALL-UNNAMED" />
+      <envs>
+        <env name="-add-opens java.base/sun.net.util" value="ALL-UNNAMED" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectByIdAssociation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByIdAssociation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectByIdStep1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByIdStep1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="mybatis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="mybatis" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="mybatis-004-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bank" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7da8b7d3-1751-4575-bb64-102b970d6b46" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53317" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mybatis-004-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JavassistTest.testGenerateFirstClass" />
+      <item itemvalue="JUnit.CarMapperTest.testDeleteByIds" />
+      <item itemvalue="JUnit.CarMapperTest.testInsertBatch" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectByIdAssociation" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectByIdStep1" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectById" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.1.19" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentMapperTest.testSelectByIdStep1" />
+        <item itemvalue="JUnit.StudentMapperTest.testSelectById" />
+        <item itemvalue="JUnit.StudentMapperTest.testSelectByIdAssociation" />
+        <item itemvalue="JUnit.CarMapperTest.testInsertBatch" />
+        <item itemvalue="JUnit.CarMapperTest.testDeleteByIds" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a17cdc28-c40f-4c1a-9ac3-40e896907a0e" name="更改" comment="" />
+      <created>1712201188318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712201188318</updated>
+      <workItem from="1712201189691" duration="197000" />
+      <workItem from="1712201405972" duration="165000" />
+      <workItem from="1712202438864" duration="23000" />
+      <workItem from="1712217032677" duration="93000" />
+      <workItem from="1712544170996" duration="71000" />
+      <workItem from="1712544250652" duration="114000" />
+      <workItem from="1712544372595" duration="1358000" />
+      <workItem from="1712546212781" duration="231000" />
+      <workItem from="1712566163487" duration="5755000" />
+      <workItem from="1712588822226" duration="20968000" />
+      <workItem from="1712721052835" duration="132000" />
+      <workItem from="1712721209690" duration="53049000" />
+      <workItem from="1713000112612" duration="1993000" />
+      <workItem from="1713021799014" duration="1814000" />
+      <workItem from="1713023630473" duration="53999000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改代码提交">
+      <option name="closed" value="true" />
+      <created>1712892300330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712892300330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改代码提交">
+      <option name="closed" value="true" />
+      <created>1713146623397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713146623397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="修改代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.cj.jdbc.exceptions.MysqlDataTruncation" package="com.mysql.cj.jdbc.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

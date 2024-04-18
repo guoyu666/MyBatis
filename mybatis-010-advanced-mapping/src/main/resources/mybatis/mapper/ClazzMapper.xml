@@ -7,4 +7,31 @@
     <select id="selectByIdStep2" resultType="Clazz">
         select cid,cname from t_clazz where cid = #{id}
     </select>
+
+
+    <resultMap id="clazzResultMap" type="Clazz">
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+        <!--一对多，这里是collection。collection是集合的意思-->
+        <!--ofType属性用来指定集合当中元素的类型-->
+        <collection property="students" ofType="Student">
+            <id property="sid" column="sid"/>
+            <result property="sname" column="sname"/>
+        </collection>
+    </resultMap>
+    <select id="selectByCollection" resultMap="clazzResultMap">
+        select c.cid,c.cname,s.sid,s.sname from t_clazz c left join t_student s on c.cid = s.cid where c.cid = #{cid}
+    </select>
+
+
+    <resultMap id="clazzResultMapStep" type="Clazz">
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+        <!--分步查询第二步：根据班级的cid信息，查询学生信息-->
+        <collection property="students" select="mybatis.mapper.StudentMapper.selectByIdStep2" column="cid"/>
+    </resultMap>
+    <select id="selectByStep1" resultMap="clazzResultMapStep">
+        <!--分步查询第一步：根据班级的cid获取班级信息-->
+        select cid,cname from t_clazz where cid = #{cid}
+    </select>
 </mapper>

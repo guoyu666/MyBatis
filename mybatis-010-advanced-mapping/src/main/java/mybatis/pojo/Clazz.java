@@ -1,5 +1,6 @@
 package mybatis.pojo;
 
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -8,13 +9,23 @@ import java.util.Objects;
 public class Clazz {
     private Integer  cid;
     private String cname;
+    private List<Student> students;
 
     @Override
     public String toString() {
         return "Clazz{" +
                 "cid=" + cid +
                 ", cname='" + cname + '\'' +
+                ", students=" + students +
                 '}';
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
     }
 
     @Override

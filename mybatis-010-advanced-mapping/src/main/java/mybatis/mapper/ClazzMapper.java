@@ -9,4 +9,18 @@ public interface ClazzMapper {
      * @return
      */
     Clazz selectByIdStep2(Integer id);
+
+    /**
+     * 根据班级编号查询班级信息
+     * @param cid
+     * @return
+     */
+    Clazz selectByCollection(Integer cid);
+
+    /**
+     * 分布查询第一步：根据班级编号获取班级信息
+     * @param cid 班级编号
+     * @return
+     */
+    Clazz selectByStep1(Integer cid);
 }

@@ -2,6 +2,8 @@ package mybatis.mapper;
 
 import mybatis.pojo.Student;
 
+import java.util.List;
+
 public interface StudentMapper {
     /**
      * 根据id获取学生信息，同时获取学生关联的班级信息
@@ -24,4 +26,11 @@ public interface StudentMapper {
      * @return
      */
     Student selectByIdStep1(Integer id);
+
+    /**
+     * 分步查询第二步：根据班级编号查询学生信息
+     * @param id
+     * @return
+     */
+    List<Student> selectByIdStep2(Integer id);
 }

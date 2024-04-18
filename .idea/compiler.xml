@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-012-generator" />
+        <module name="mybatis-009-dynamic-sql" />
+        <module name="mybatis-007-param" />
+        <module name="mybatis-013-page" />
+        <module name="mybatis-001-introduction" />
+        <module name="mybatis-011-ache" />
+        <module name="mybatis-010-advanced-mapping" />
         <module name="junit-test" />
         <module name="mybatis-006-antic" />
         <module name="mybatis-004-web" />
-        <module name="mybatis-009-dynamic-sql" />
         <module name="parse-xml-by-dom4j" />
-        <module name="mybatis-007-param" />
         <module name="mybatis-008-select" />
-        <module name="mybatis-001-introduction" />
         <module name="javassist-test" />
         <module name="mybatis-005-crud" />
         <module name="mybatis-002-crud" />
-        <module name="mybatis-010-advanced-mapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

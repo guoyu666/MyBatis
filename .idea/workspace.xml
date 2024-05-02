@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a17cdc28-c40f-4c1a-9ac3-40e896907a0e" name="更改" comment="修改代码提交">
+      <change afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/LOG_HOME_IS_UNDEFINED/TestWeb.log.2024-05-02.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/774b8ac9-2449-489c-9ac0-48741273e6bb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/774b8ac9-2449-489c-9ac0-48741273e6bb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/ClazzMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/ClazzMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-010-advanced-mapping/src/main/resources/mybatis/mapper/StudentMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,84 +60,85 @@
     <option name="showScratchesAndConsoles" value="false" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.CarMapperTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testDeleteById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testDeleteByIds.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testDeleteByPrimaryKey.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testInsert.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testInsertBatch.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testInsertCarUseGeneratedKeys.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testPageSize.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectAllByAscOrDesc.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectAllByMapUnderscoreToCameCase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectAllByResultMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectAllReturnListMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByBrandLike.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByCarType.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByChoose.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectById2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByIdReturnMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByMultiCondition.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByMultiConditionWithTrim.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectByMultiConditionWithWhere.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectMapReturnMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testSelectTotal.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testUpdateById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarMapperTest.testUpdateBySet.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClazzMapperTest.testSelectByCollection.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClazzMapperTest.testSelectByStep1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JavassistTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JavassistTest.testGenerateAccountDaoImpl.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JavassistTest.testGenerateFirstClass (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JavassistTest.testGenerateFirstClass.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JavassistTest.testGenerateImpl.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathServiceTest.testSum.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testInsertStudentByMap.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testInsertStudentByPOJO.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByBirth.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByIdAssociation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByIdStep1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByNameAndSex.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectByNameAndSex2.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.StudentMapperTest.testSelectBySex.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.junit-test [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis-007-param [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis-012-generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.1:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/apple/Documents/ideaProjects/MyBatis/mybatis-013-page/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28275862&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;jvm.logging&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.CarMapperTest.executor": "Run",
+    "JUnit.CarMapperTest.testDeleteById.executor": "Run",
+    "JUnit.CarMapperTest.testDeleteByIds.executor": "Run",
+    "JUnit.CarMapperTest.testDeleteByPrimaryKey.executor": "Run",
+    "JUnit.CarMapperTest.testInsert.executor": "Run",
+    "JUnit.CarMapperTest.testInsertBatch.executor": "Run",
+    "JUnit.CarMapperTest.testInsertCarUseGeneratedKeys.executor": "Run",
+    "JUnit.CarMapperTest.testPageSize.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAll.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByAscOrDesc.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByMapUnderscoreToCameCase.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllByResultMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectAllReturnListMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByBrandLike.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByCarType.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByChoose.executor": "Run",
+    "JUnit.CarMapperTest.testSelectById.executor": "Run",
+    "JUnit.CarMapperTest.testSelectById2.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByIdReturnMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiCondition.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiConditionWithTrim.executor": "Run",
+    "JUnit.CarMapperTest.testSelectByMultiConditionWithWhere.executor": "Run",
+    "JUnit.CarMapperTest.testSelectMapReturnMap.executor": "Run",
+    "JUnit.CarMapperTest.testSelectTotal.executor": "Run",
+    "JUnit.CarMapperTest.testUpdate.executor": "Run",
+    "JUnit.CarMapperTest.testUpdateById.executor": "Run",
+    "JUnit.CarMapperTest.testUpdateBySet.executor": "Run",
+    "JUnit.ClazzMapperTest.testSelectByCollection.executor": "Run",
+    "JUnit.ClazzMapperTest.testSelectByStep1.executor": "Run",
+    "JUnit.JavassistTest.executor": "Run",
+    "JUnit.JavassistTest.testGenerateAccountDaoImpl.executor": "Run",
+    "JUnit.JavassistTest.testGenerateFirstClass (1).executor": "Run",
+    "JUnit.JavassistTest.testGenerateFirstClass.executor": "Run",
+    "JUnit.JavassistTest.testGenerateImpl.executor": "Run",
+    "JUnit.MathServiceTest.testSum.executor": "Run",
+    "JUnit.StudentMapperTest.executor": "Run",
+    "JUnit.StudentMapperTest.testInsertStudentByMap.executor": "Run",
+    "JUnit.StudentMapperTest.testInsertStudentByPOJO.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByBirth.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectById.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByIdAssociation.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByIdStep1.executor": "Debug",
+    "JUnit.StudentMapperTest.testSelectByName.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByNameAndSex.executor": "Run",
+    "JUnit.StudentMapperTest.testSelectByNameAndSex2.executor": "Debug",
+    "JUnit.StudentMapperTest.testSelectBySex.executor": "Run",
+    "Maven.junit-test [clean].executor": "Run",
+    "Maven.mybatis-007-param [clean].executor": "Run",
+    "Maven.mybatis-012-generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.1:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/apple/Documents/ideaProjects/MyBatis/mybatis-013-page/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28275862",
+    "settings.editor.selected.configurable": "jvm.logging",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mybatis-013-page/src/main/java" />
@@ -146,39 +152,7 @@
       <recent name="mybatis.pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CarMapperTest.testSelectAll">
-    <configuration name="CarMapperTest.testDeleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-012-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteByPrimaryKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarMapperTest.testPageSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-013-page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
-      <option name="METHOD_NAME" value="testPageSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentMapperTest.testSelectByIdStep1">
     <configuration name="CarMapperTest.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-013-page" />
       <extension name="coverage">
@@ -190,38 +164,6 @@
       <option name="PACKAGE_NAME" value="mybatis.test" />
       <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
       <option name="METHOD_NAME" value="testSelectAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-011-ache" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
-      <option name="METHOD_NAME" value="testSelectById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarMapperTest.testSelectById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-011-ache" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatis.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatis.test" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.test.CarMapperTest" />
-      <option name="METHOD_NAME" value="testSelectById2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,6 +185,69 @@
       <envs>
         <env name="-add-opens java.base/sun.net.util" value="ALL-UNNAMED" />
       </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectByIdAssociation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByIdAssociation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.testSelectByIdStep1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-010-advanced-mapping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.test.StudentMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByIdStep1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -351,28 +356,28 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.JavassistTest.testGenerateFirstClass" />
+      <item itemvalue="JUnit.StudentMapperTest" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectById" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectByIdAssociation" />
+      <item itemvalue="JUnit.StudentMapperTest.testSelectByIdStep1" />
       <item itemvalue="JUnit.CarMapperTest.testSelectAll" />
-      <item itemvalue="JUnit.CarMapperTest.testPageSize" />
-      <item itemvalue="JUnit.CarMapperTest.testDeleteByPrimaryKey" />
-      <item itemvalue="JUnit.CarMapperTest.testSelectById" />
-      <item itemvalue="JUnit.CarMapperTest.testSelectById2" />
       <item itemvalue="Tomcat 服务器.Tomcat 10.1.19" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentMapperTest.testSelectByIdStep1" />
+        <item itemvalue="JUnit.StudentMapperTest.testSelectByIdAssociation" />
+        <item itemvalue="JUnit.StudentMapperTest.testSelectById" />
+        <item itemvalue="JUnit.StudentMapperTest" />
         <item itemvalue="JUnit.CarMapperTest.testSelectAll" />
-        <item itemvalue="JUnit.CarMapperTest.testPageSize" />
-        <item itemvalue="JUnit.CarMapperTest.testDeleteByPrimaryKey" />
-        <item itemvalue="JUnit.CarMapperTest.testSelectById2" />
-        <item itemvalue="JUnit.CarMapperTest.testSelectById" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -405,6 +410,9 @@
       <workItem from="1713711339254" duration="1663000" />
       <workItem from="1714148699487" duration="4742000" />
       <workItem from="1714223458288" duration="1465000" />
+      <workItem from="1714361360273" duration="2162000" />
+      <workItem from="1714569447394" duration="6639000" />
+      <workItem from="1714618427069" duration="7251000" />
     </task>
     <task id="LOCAL-00001" summary="修改代码提交">
       <option name="closed" value="true" />
@@ -438,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713408049812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改代码提交">
+      <option name="closed" value="true" />
+      <created>1714361576527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714361576527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

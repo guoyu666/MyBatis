@@ -5,6 +5,7 @@
 <mapper namespace="mybatis.mapper.StudentMapper">
     <!--多对一映射的第一种方式：一条SQL语句，级联属性映射-->
     <resultMap id="studentResultMap" type="Student">
+        <!--columu上的sid,sname,cid,cname都是查询结果的列名，要赋给对象的属性property上-->
         <id property="sid" column="sid"/>
         <result property="sname" column="sname"/>
         <result property="clazz.cid" column="cid"/>
@@ -20,13 +21,15 @@
 
     <!--多对一映射的第二种方式：一条SQL语句,association-->
     <resultMap id="studentResultMapAssociation" type="Student">
+        <!--column上的sid,sname是查询结果的列名，要赋给对象的属性property上-->
         <id property="sid" column="sid"/>
         <result property="sname" column="sname"/>
         <!--association：翻译为关联，一个Student对象关联一个Clazz对象
                property：提供要映射的POJO类的属性名
-                 column：用来指定要映射的java类型
+                 javaType：用来指定要映射的java类型
         -->
         <association property="clazz" javaType="Clazz">
+            <!--cid,cname是查询结果的列名，要赋给对象的属性上-->
             <id property="cid" column="cid"/>
             <result property="cname" column="cname"/>
         </association>
@@ -61,7 +64,7 @@
         <id property="sid" column="sid"/>
         <result property="sname" column="sname"/>
         <!--这里是第二步-->
-        <association property="clazz" select="mybatis.mapper.ClazzMapper.selectByIdStep2" column="cid" fetchType="eager"/>
+        <association property="clazz" select="mybatis.mapper.ClazzMapper.selectByIdStep2" column="cid" fetchType="lazy"/>
     </resultMap>
     <!--这里是第一步：根据学生的id查询学生的所有信息，这些信息当中含有班级ID(cid)-->
     <select id="selectByIdStep1" resultMap="studentResultMapByStep">

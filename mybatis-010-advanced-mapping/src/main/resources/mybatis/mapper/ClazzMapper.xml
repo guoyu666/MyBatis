@@ -10,11 +10,13 @@
 
 
     <resultMap id="clazzResultMap" type="Clazz">
+        <!--columu上的cid,cname都是查询结果的列名，要赋给对象的属性property上-->
         <id property="cid" column="cid"/>
         <result property="cname" column="cname"/>
         <!--一对多，这里是collection。collection是集合的意思-->
         <!--ofType属性用来指定集合当中元素的类型-->
         <collection property="students" ofType="Student">
+            <!--columu上的sid,sname都是查询结果的列名，要赋给对象的属性property上-->
             <id property="sid" column="sid"/>
             <result property="sname" column="sname"/>
         </collection>

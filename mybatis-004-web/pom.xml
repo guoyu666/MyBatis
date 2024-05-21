@@ -3,8 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.powernode</groupId>
   <artifactId>mybatis-004-web</artifactId>
-  <packaging>war</packaging>
   <version>1.0</version>
+  <!--打包方式-->
+  <packaging>war</packaging>
 
   <name>mybatis-004-web Maven Webapp</name>
   <url>http://maven.apache.org</url>

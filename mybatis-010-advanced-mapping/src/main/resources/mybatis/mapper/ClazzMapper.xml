@@ -22,7 +22,7 @@
         </collection>
     </resultMap>
     <select id="selectByCollection" resultMap="clazzResultMap">
-        select c.cid,c.cname,s.sid,s.sname from t_clazz c left join t_student s on c.cid = s.cid where c.cid = #{cid}
+        select c.cid,c.cname,s.sid,s.sname from t_clazz c left join t_stu s on c.cid = s.cid where c.cid = #{cid}
     </select>
 
 

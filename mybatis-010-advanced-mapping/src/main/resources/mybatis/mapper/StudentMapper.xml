@@ -14,7 +14,7 @@
     <select id="selectById" resultMap="studentResultMap">
         select
             s.sid,s.sname,c.cid,c.cname
-        from t_student s left join t_clazz c on s.cid = c.cid
+        from t_stu s left join t_clazz c on s.cid = c.cid
         where
             s.sid = #{id}
     </select>
@@ -37,7 +37,7 @@
     <select id="selectByIdAssociation" resultMap="studentResultMapAssociation">
         select
             s.sid,s.sname,c.cid,c.cname
-        from t_student s left join t_clazz c on s.cid = c.cid
+        from t_stu s left join t_clazz c on s.cid = c.cid
         where
             s.sid = #{id}
     </select>
@@ -68,10 +68,10 @@
     </resultMap>
     <!--这里是第一步：根据学生的id查询学生的所有信息，这些信息当中含有班级ID(cid)-->
     <select id="selectByIdStep1" resultMap="studentResultMapByStep">
-        select sid, sname,cid from t_student where sid = #{id}
+        select sid, sname,cid from t_stu where sid = #{id}
     </select>
 
     <select id="selectByIdStep2" resultType="Student">
-        select * from t_student where cid = #{cid}
+        select * from t_stu where cid = #{cid}
     </select>
 </mapper>

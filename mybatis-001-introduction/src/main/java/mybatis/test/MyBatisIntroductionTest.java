@@ -31,7 +31,7 @@ public class MyBatisIntroductionTest {
         // 返回值是影响数据库表当中的记录条数
         System.out.println("插入几条数据：" + count);
 
-        // 5. 提交（mybatis默认采用的事务管理器是JDBC，默认是不提交的，需要手动提交。）
+        // 5. 提交（mybatis默认采用的事务管理器是JDBC，默认是不提交的，需要手动提交！！）
         sqlSession.commit();
 
         // 6. 关闭资源（只关闭是不会提交的）

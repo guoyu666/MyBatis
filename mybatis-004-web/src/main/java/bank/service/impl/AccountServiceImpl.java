@@ -1,15 +1,12 @@
 package bank.service.impl;
 
 import bank.dao.AccountDao;
-import bank.dao.impl.AccountDaoImpl;
 import bank.exceptions.MoneyNotEnoughException;
 import bank.exceptions.TransferException;
 import bank.pojo.Account;
 import bank.service.AccountService;
-import bank.utils.GenerateDaoProxy;
 import bank.utils.SqlSessionUtil;
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.transaction.TransactionException;
 
 public class AccountServiceImpl implements AccountService {
 
